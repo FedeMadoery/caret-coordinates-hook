@@ -132,8 +132,7 @@ If `relative` is `true`, the hook simply subtracts the input’s `getBoundingCli
 git clone https://github.com/fedemadoery/caret-coordinates-hook.git
 cd caret-coordinates-hook
 pnpm install
-pnpm dev     # Storybook playground
-pnpm test    # Vitest unit tests
+pnpm build   
 ```
 
 ---
