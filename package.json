@@ -1,10 +1,13 @@
 {
-  "name": "@fedemadoery/caret-coordinates-hook",
+  "name": "caret-coordinates-hook",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tiny **React Hook** that gives you the pixel coordinates (`top`, `left`, `height`) of the text cursor (caret)",
   "author": "fedemadoery",
-  "license": "Apache-2.0",
-  "repository": "fedemadoery/caret-coordinates-hook",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedemadoery/caret-coordinates-hook.git"
+  },
   "main": "dist/index.js",
   "engines": {
     "node": ">=8",
@@ -51,5 +54,10 @@
   ],
   "dependencies": {
     "prop-types": "^15.8.1"
-  }
+  },
+  "types": "./dist/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/fedemadoery/caret-coordinates-hook/issues"
+  },
+  "homepage": "https://github.com/fedemadoery/caret-coordinates-hook#readme"
 }
